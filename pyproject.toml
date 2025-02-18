@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llm-error-detection"
+version = "0.1.0"
+description = "Exploring the error awareness of large language models through mechanistic evaluations."
+authors = ["Philipp Mondorf <p.mondorf@lmu.de>, Leonardo Bertolazzi <leonardo.bertolazzi@unitn.it>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformer-lens = "^2.8.1"
+pre-commit = "^4.0.1"
+auto-circuit = { git = "https://github.com/PMMon/auto-circuit.git" }
+matplotlib = "^3.9.3"
+pygraphviz = "^1.14"
+cmapy = "^0.6.6"
+pytest = "^8.3.4"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
