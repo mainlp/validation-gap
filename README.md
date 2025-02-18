@@ -4,6 +4,8 @@
     <a href="LICENSE"> <img alt="License" src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg"> </a>
 </p>
 
+This repository contains the code for the paper: Leonardo Bertolazzi, Philipp Mondorf, Barbara Plank and Raffaella Bernardi (2025). [*The Validation Gap: A Mechanistic Analysis of How Language Models Compute Arithmetic but Fail to Validate It.*](https://doi.org/10.48550/arXiv.2502.11771).
+
 <div style="text-align: center; width: 100%;">
   <!-- Container to align the image and the caption -->
   <div style="display: inline-block; text-align: left; width: 85%;">
@@ -16,8 +18,6 @@
 </div>
 
 <br>
-
-This repository contains the code for the paper: Leonardo Bertolazzi, Philipp Mondorf, Barbara Plank and Raffaella Bernardi (2025). [*The Validation Gap: A Mechanistic Analysis of How Language Models Compute Arithmetic but Fail to Validate It.*](https://doi.org/10.48550/arXiv.2502.11771).
 
 > **Abstract:** The ability of large language models (LLMs) to validate their output and identify potential errors is crucial for ensuring robustness and reliability. However, current research indicates that LLMs struggle with self-correction, encountering significant challenges in detecting errors. While studies have explored methods to enhance self-correction in LLMs, relatively little attention has been given to understanding the models' internal mechanisms underlying error detection. In this paper, we present a mechanistic analysis of error detection in LLMs, focusing on simple arithmetic problems. Through circuit analysis, we identify the computational subgraphs responsible for detecting arithmetic errors across four smaller-sized LLMs. Our findings reveal that all models heavily rely on *consistency heads*--attention heads that assess surface-level alignment of numerical values in arithmetic solutions. Moreover, we observe that the models' internal arithmetic computation primarily occurs in higher layers, whereas validation takes place in middle layers, before the final arithmetic results are fully encoded. This structural dissociation between arithmetic computation and validation seems to explain why current LLMs struggle to detect even simple arithmetic errors.
 
