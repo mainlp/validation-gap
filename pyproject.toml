@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "llm-error-detection"
 version = "0.1.0"
-description = "Exploring the error awareness of large language models through mechanistic evaluations."
+description = "A mechanistic analysis of arithmetic error detection in LLMs."
 authors = ["Philipp Mondorf <p.mondorf@lmu.de>, Leonardo Bertolazzi <leonardo.bertolazzi@unitn.it>"]
-license = "MIT"
+license = "CC BY-SA 4.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
