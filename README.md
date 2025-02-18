@@ -4,7 +4,7 @@
     <a href="LICENSE"> <img alt="License" src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg"> </a>
 </p>
 
-This repository contains the code for the paper: Leonardo Bertolazzi, Philipp Mondorf, Barbara Plank and Raffaella Bernardi (2025). [*The Validation Gap: A Mechanistic Analysis of How Language Models Compute Arithmetic but Fail to Validate It.*](https://doi.org/10.48550/arXiv.2502.11771).
+This repository contains the code for the paper: Leonardo Bertolazzi, Philipp Mondorf, Barbara Plank and Raffaella Bernardi (2025). [*The Validation Gap: A Mechanistic Analysis of How Language Models Compute Arithmetic but Fail to Validate It*](https://doi.org/10.48550/arXiv.2502.11771).
 
 <div style="text-align: center; width: 100%;">
   <!-- Container to align the image and the caption -->
